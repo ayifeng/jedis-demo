@@ -23,6 +23,7 @@ public class JedisFactory {
     }
     //创建jedis对象
     public static Jedis getJedis() {
+        System.out.println("hot-fix");
         return JEDIS_POOL.getResource();
     }
 
