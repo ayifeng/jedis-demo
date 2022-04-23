@@ -33,5 +33,6 @@ public class JedisFactory {
         System.out.println("测试一下git------------------");
         System.out.println("测试一下git2");
         System.out.println("测试一下往github推送");
+        System.out.println("测试一下往github拉取");
     }
 }
