@@ -26,4 +26,8 @@ public class JedisFactory {
         System.out.println("hot-fix");
         return JEDIS_POOL.getResource();
     }
+    public static void main(String[] args) {
+        System.out.println("测试一下git------------------");
+        System.out.println("测试一下git2");
+    }
 }
