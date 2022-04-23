@@ -25,4 +25,8 @@ public class JedisFactory {
     public static Jedis getJedis() {
         return JEDIS_POOL.getResource();
     }
+
+    public static void main(String[] args) {
+        System.out.println("测试一下git");
+    }
 }
